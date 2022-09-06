@@ -1,108 +1,179 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Someone Like You
 
-Welcome frankiesanjana,
+Description.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This project has been created as part of Code Institute's Hackathon Event September 2022, "Time To Close The Gender Gap".
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+You can visit the live website [here](#).
 
-## Gitpod Reminders
+amiresponsive image here:
+<img src="assets/images/readme-images/responsive.png">
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Concept
 
-`python3 -m http.server`
+Women are significantly underrepresented in the science, technology, engineering and maths (“STEM”) workforce. [According to Eurostat](https://www.weforum.org/agenda/2022/02/women-gender-technology-economy-representation-equality), women hold only 17% of major technology jobs, such as programming, systems analysis, or software development.
 
-A blue button should appear to click: _Make Public_,
+One reason for this is that visibility of women and minorities in STEM fields is often limited, "it's hard to be what you can't see".
 
-Another blue button should appear to click: _Open Browser_.
+Greater awareness of women and minorities in these areas can help to increase the ability of these groups to consider STEM fields as viable career options. Knowledge of female role models has also been demonstrated to reduce the implicit biases that are shown via studies to be present in both men and women.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Much more detail on this topic is available [in this report](https://www.aauw.org/app/uploads/2020/03/Solving-the-Equation-report-nsa.pdf) by the AAUW, a non-profit organisation in the USA that advances equity for women and girls through advocacy, education, and research.
 
-A blue button should appear to click: _Make Public_,
+Someone Like You therefore aims to provide a diverse range of examples of successful people, ...
 
-Another blue button should appear to click: _Open Browser_.
+The site is designed to cater for x users...
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### User Stories
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Owner Goals
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
+## Design
 
-## Release History
+The project has been designed according to the five planes of content strategy. Further details are below:
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Plane 1: Strategy
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Plane 2: Scope
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+Our team identified a number of possible features for the project. We focused on initially creating a minimum viable product ("MVP"), with other features to be added at a later date if time allowed:
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+- Information on a range of diverse people who have been successful at what they do
+    - importance 5
+    - viability 5
+- Calendar featuring a different person for each day of the year
+    - importance x
+    - viability x
+- Quiz on different people and what they have accomplished
+    - importance x
+    - viability x
+- Information on how a range of specific diversity-related issues have been overcome
+    - importance x
+    - viability x
+- Information on unconscious bias and links to external site(s) with more information
+    - importance x
+    - viability x
+- Unconscious bias test
+    - importance x
+    - viability x
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Plane 3: Structure
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Plane 4: Skeleton
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+Wireframes for the project can be seen [here](#).
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Plane 5: Surface
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+#### Colour Scheme
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+#### Typography
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+#### Images
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+#### Presentation
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Features
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Current Features
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
+#### Title
 
-## FAQ about the uptime script
+#### Section 1
 
-**Why have you added this script?**
+#### Section 2
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+#### Section 3
 
-**How will this affect me?**
+### Potential Future Features
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+## Technologies Used
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+### Languages
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
-**So….?**
+### Frameworks and Libraries
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+- [Balsamiq](https://balsamiq.com/)
+- [GitHub](https://github.com/)
+- [GitPod](https://gitpod.io/)
+- [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)
+- [Google Fonts](https://fonts.google.com/)
+- [Favicon](https://www.favicon.cc/)
+- [Free Logo Design](https://www.freelogodesign.org/)
+- [Amiresponsive](http://ami.responsivedesign.is/)
 
-**Can I opt out?**
+## Testing
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### Manual Testing
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
 
-**Anything more?**
+### Device and Cross-Browser Testing
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
----
+### Validator Testing
 
-Happy coding!
+- [W3C HTML validator](https://validator.w3.org/)
+- [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/)
+- [JS Hint JavaScript validator](https://jshint.com/)
+
+- The website was also tested for accessibility using Lighthouse in Dev Tools, with the following results:
+
+
+### Bugs
+
+The following bugs were found during build and have been resolved:
+
+The following bugs are unresolved:
+
+## Deployment
+
+The project was deployed to GitHub Pages. The steps taken to deploy are:
+- In the GitHub repository for the site, click on the ‘Settings’ tab along the top of the page.
+- This brings up a General Settings page with a selection of menu items down the left-hand side.
+- In this new menu, click on “Pages”.
+- In the main body of the page, it is then possible to select a branch. Select the main branch. Click on “Save”.
+- GitHub then provides a link to the published webpage, which can be clicked or copied and pasted like any other link.
+- Further updates that are pushed to the branch will automatically appear in GitHub Pages.
+
+### Forking a GitHub repository
+
+It is possible to copy the repository in order to experiment with your own changes without affecting the original project. The steps to do this as as follows:
+- Navigate to the GitHub website.
+- Log in if necessary.
+- Navigate to the repository that you want to fork.
+- In the top right-hand corner of the page, click on "fork".
+- You will be taken to a page to create your own fork. You can edit the project name and (optionally) add a description.
+- Click on "create fork" to complete the process.
+
+### Cloning a GitHub repository
+
+It is also possible to copy the repository onto your own local machine. In practice, this might be done to make it easier to fix merge conflicts, add or remove files, and push larger commits. To do this, follow these steps:
+- Navigate to the GitHub website.
+- Log in if necessary.
+- Navigate to the repository that you want to clone.
+- Above the list of files, find the "Code" button and click on it:
+<br>
+<img src="assets/images/readme-images/code-button.png">
+
+- To clone the repository using HTTPS, under "Clone with HTTPS", click the clipboard icon. To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click the clipboard icon. To clone a repository using GitHub CLI, click Use GitHub CLI, then click the clipboard icon.
+- Open your computer terminal.
+- Change the current working directory to the location where you want the cloned directory.
+- Type "git clone" and then paste the location that you have copied.
+- Press "enter" and your local clone will be created.
+
+## Credits
+
+### Content and Media
+
+
+
+### Code
+
+
+### Other Credits
