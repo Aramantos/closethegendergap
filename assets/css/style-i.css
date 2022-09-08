@@ -43,6 +43,7 @@ body {
 @keyframes blur {
   0% {
     opacity: 1;
+    filter: blur(0);
   }
   100% {
     opacity: 0.5;
