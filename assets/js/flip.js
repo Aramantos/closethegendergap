@@ -12,7 +12,13 @@
 
 $(document).ready(function () {
   $(".flip-card-inner").click(function () {
+    $("#overlay").css("display", "block");
     $(".container").addClass("blur");
     $(".card").addClass("appear");
+  });
+  $("#reset-btn").click(function () {
+    $("#overlay").css("display", "none");
+    $(".container").addClass("unblur");
+    $(".card").hide();
   });
 });

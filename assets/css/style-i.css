@@ -2,8 +2,20 @@ body {
   height: 100vh;
 }
 
+#overlay {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 1;
+  display: none;
+}
+
 .container {
-  margin-top: 10vh;
+  margin-top: 5vh;
+}
+
+.container h1 {
+  text-align: center;
 }
 
 .col-12 {
@@ -38,9 +50,29 @@ body {
   }
 }
 
+.unblur {
+  animation-name: unblur;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+@keyframes unblur {
+  0% {
+    opacity: 0.5;
+    filter: blur(2px);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
 .appear {
   animation-name: appear;
   animation-duration: 3s;
+  animation-delay: 2s;
   animation-iteration-count: 1;
   animation-direction: normal;
   animation-fill-mode: forwards;
@@ -48,7 +80,7 @@ body {
 
 @keyframes appear {
   0% {
-    display: none;
+    display: block;
     filter: blur(2px);
   }
   100% {
