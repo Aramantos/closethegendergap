@@ -14,7 +14,8 @@ $(document).ready(function () {
   $(".flip-card-inner").click(function () {
     $("#overlay").css("display", "block");
     $(".container").addClass("blur");
-    $(".card").addClass("appear");
+    $(".card").css("display", "block");;
+    // $(".card").addClass("appear");
   });
   $("#reset-btn").click(function () {
     $("#overlay").css("display", "none");
