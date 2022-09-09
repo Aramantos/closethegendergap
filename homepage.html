@@ -129,21 +129,21 @@
 
         <!-- Conditional profiles -->
         <div id="rolemodel" class="mx-5">
-            <div id="placeholder" class="profile" style="display: none;">
+            <div class="profile" id="placeholder" style="display: none;">
                 <h1 class="text-center">Placeholder name</h1>
                 <p>Can't read the carousel properly!</p>
             </div>
-            <div id="lovelace" class="profile" style="display: block;">
+            <div class="profile" id="lovelace" style="display: block;">
                 <h1 class="text-center">Ada Lovelace</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Augusta Ada King, Countess of Lovelace was an English mathematician and writer, chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine. She was the first to recognise that the machine had applications beyond pure calculation, and to have published the first algorithm intended to be carried out by such a machine. As a result, she is often regarded as the first computer programmer.</p>
             </div>
-            <div id="turing" class="profile" style="display: none;">
+            <div class="profile" id="turing" style="display: none;">
                 <h1 class="text-center">Alan Turing</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Alan Turing was an English mathematician, computer scientist, logician, cryptanalyst, philosopher, and theoretical biologist. Turing was highly influential in the development of theoretical computer science, providing a formalisation of the concepts of algorithm and computation with the Turing machine, which can be considered a model of a general-purpose computer. He is widely considered to be the father of theoretical computer science and artificial intelligence.</p>
             </div>
-            <div id="curie" class="profile" style="display: none;">
+            <div class="profile" id="curie" style="display: none;">
                 <h1 class="text-center">Marie Curie</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Marie Curie was a Polish and naturalized-French physicist and chemist who conducted pioneering research on radioactivity. She was the first woman to win a Nobel Prize, the first person and the only woman to win the Nobel Prize twice, and the only person to win the Nobel Prize in two scientific fields. Her husband, Pierre Curie, was a co-winner on her first Nobel Prize, making them the first ever married couple to win the Nobel Prize and launching the Curie family legacy of five Nobel Prizes. She was, in 1906, the first woman to become a professor at the University of Paris.</p>
             </div>
         </div>
     </section>
@@ -167,32 +167,37 @@
     <!-- Carousel text -->
     <script language="javascript">
         function carouselProfile(){
+            // Sets timer of 750ms before executing to ensure the new slide is properly active
             setTimeout(function () {
                 console.log("carouselProfile called!");
                 var activeSlideArray = [];
                 activeSlideArray = document.getElementsByClassName("active");
                 var activeSlide = activeSlideArray[1];
+
+                // Removes all existing profile text
+                var x = document.getElementsByClassName("profile");
+                        var i;
+                        for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";
+                        }
                 
+                // Displays profile text matching the active slide
                 switch(activeSlide.id){
                     case "item1":
                         console.log("Ada Lovelace active");
-                        document.getElementsByClassName("profile").style="display: none;";
-                        document.getElementById("lovelace").style="display: block;";
+                        document.getElementById("lovelace").style.display="block";
                         break;
                     case "item2":
-                        console.log("Alan Turing active");
-                        document.getElementsByClassName("profile").style="display: none;";
-                        document.getElementById("turing").style="display: block;";
+                        console.log("Alan Turing active"); 
+                        document.getElementById("turing").style.display="block";
                         break;
                     case "item3":
                         console.log("Marie Curie active");
-                        document.getElementsByClassName("profile").style="display: none;";
-                        document.getElementById("curie").style="display: block;";
+                        document.getElementById("curie").style.display="block";
                         break;
                     default:
                         console.log("Couldn't identify slide! Displaying error text!");
-                        document.getElementsByClassName("profile").style="display: none;";
-                        document.getElementById("placeholder").style="display: block;";
+                        document.getElementById("placeholder").style.display="block";
                 }
             }, 750);
         };
