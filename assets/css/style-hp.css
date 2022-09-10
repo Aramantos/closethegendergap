@@ -17,7 +17,7 @@ header {
 }
 
 .hero-image {
-  background-image: url("assets/images/hero-320.jpg");
+  /* background-image: url("assets/images/hero-320.jpg"); */
   /* background: url("/assets/css/style-i.css") no-repeat center center fixed; */
   background-size: cover;
   width: 100%;
@@ -178,7 +178,7 @@ overflow: hidden;
 }
 
 .hero-image {
-  background-image: url("assets/images/hero-320.jpg");
+  /* background-image: url("assets/images/hero-320.jpg"); */
   /* background: url("/assets/css/style-i.css") no-repeat center center fixed; */
   background-size: cover;
   width: 100%;
@@ -513,7 +513,7 @@ overflow: hidden;
 }
     
 .hero-image {
-  background-image: url("assets/images/hero-320.jpg");
+  /* background-image: url("assets/images/hero-320.jpg"); */
   /* background: url("/assets/css/style-i.css") no-repeat center center fixed; */
   background-size: cover;
   width: 100%;
@@ -852,7 +852,7 @@ overflow: hidden;
 }
 
 .hero-image {
-  background-image: url("assets/images/hero-320.jpg");
+  /* background-image: url("assets/images/hero-320.jpg"); */
   /* background: url("/assets/css/style-i.css") no-repeat center center fixed; */
   background-size: cover;
   width: 100%;
@@ -1198,7 +1198,7 @@ animation: textclip 5s linear infinite;
   }
   
   .hero-image {
-    background-image: url("assets/images/hero-320.jpg");
+    /* background-image: url("assets/images/hero-320.jpg"); */
     /* background: url("/assets/css/style-i.css") no-repeat center center fixed; */
     background-size: cover;
     width: 100%;
@@ -1543,7 +1543,7 @@ animation: textclip 5s linear infinite;
   }
   
   .hero-image {
-    background-image: url("assets/images/hero-1920.jpg");
+    /* background-image: url("assets/images/hero-1920.jpg"); */
     /* background: url("/assets/css/style-i.css") no-repeat center center fixed; */
     background-size: cover;
     width: 100%;
@@ -1893,7 +1893,7 @@ animation: textclip 5s linear infinite;
   }
   
   .hero-image {
-    background-image: url("assets/images/hero-3420.jpg");
+    /* background-image: url("assets/images/hero-3420.jpg"); */
     /* background: url("/assets/css/style-i.css") no-repeat center center fixed; */
     background-size: cover;
     width: 100%;
