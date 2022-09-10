@@ -1,6 +1,6 @@
 # Someone Like You
 
-Someone Like You is an informational site designed for users to find out more about issues relating to gender equality in the workplace. Through educating users it also has the aim of helping them to better understand and take action relating to their own situation, whether that be as an employee or employer.
+Someone Like You is an informational site designed for users to find out more about issues relating to gender equality in the workplace. It aims to inspire users by providing examples of people from a wide range of different backgrounds who have succeeded. Through educating users it also has the aim of helping them to better understand and take action relating to their own situation, whether that be as an employee or employer.
 
 This project has been created as part of Code Institute's Hackathon Event September 2022, "Time To Close The Gender Gap".
 
@@ -80,10 +80,11 @@ Our team identified a number of possible features for the project. We focused on
 
 The website consists of four pages.
 
-- The landing page is also the main information page. It provides introductory basic facts....
+- The landing page is provides introductory basic facts....
 - The second page features a range of different role models displayed using a carousel, with a picture of each person and accompanying text below the image.
-The third page combines the trivia information with a contact form. This is because users who are looking for more information in the trivia section but do not find what they are looking for are likely to want to fill out the contact form.
-The fourth page provides a message for users who have submitted the contact form, and redirects them back to the site's main page.
+- The third page ...
+- The fourth page ...
+
 The website is multi-page to enable easier navigation. Navigation could be difficult if the whole website was placed on a single page since the amount of content on one page would become unwieldy.
 
 ### Plane 4: Skeleton
@@ -96,9 +97,17 @@ Wireframes for the project can be seen [here](#).
 
 #### Typography
 
+- The PP Handwriting font is used in the website logo in order to give the logo a modern feel.
+
+- However, through the main sections of the website a less distinctive font is used, in order for the text to be clear and easy to read and to avoid having the font distract the user from the content.
+
 #### Images
 
+- The images used in the project are taken from [Pexels](https://www.pexels.com/) and [Wikipedia](https://www.wikipedia.org/) and have been selected to fit with the theme of equality, as well as to form a cohesive whole for the overall look and feel of the website.
+
 #### Presentation
+
+- The website is designed to maintain consistency of look and feel. For example, alignment is kept as consistent as possible within and between pages. The style of writing and tone is also intended to maintain a consistent feel to the website.
 
 ## Features
 
@@ -139,6 +148,8 @@ Implicit Association Test on this website itself rather than linking out to an e
 
 ## Testing
 
+- Testing during coding took place by refreshing the browser preview in Chrome after each significant new section of code was written. Once the website started to take shape and especially as media queries were added, viewing the preview regularly on Dev Tools in Chrome also became important.
+
 ### Manual Testing
 
 
@@ -162,7 +173,7 @@ The following bugs were found during build and have been resolved:
 - Debugging for this issue took place using the Dev Tools function in Chrome, as seen in the screenshot below.
 - The bug was successfully resolved by changing `max-width: 540px;` to `width: 100%;` in the code for this media size.
 
-<img src="assets/images/readme-images/media-queries-bug.png">
+<img src="assets/images/readme-images/media-queries-bug.jpg">
 
 The following bugs are unresolved:
 
@@ -206,9 +217,15 @@ It is also possible to copy the repository onto your own local machine. In pract
 
 ### Content and Media
 
-- Information for the role models section was taken from 
+- Information for the role models section was taken from a range of sources, including [Wikipedia](https://www.wikipedia.org/) and others.
+- Information about unconscious bias comes from [Project Implicit](https://www.projectimplicit.net/).
+- [Payscale](https://www.payscale.com/) provided the data on the gender pay gap.
 
 ### Code
 
+- Information to help create the hamburger menu icon using CSS was taken from [sliderrevolution.com](https://www.sliderrevolution.com/resources/css-hamburger-menu/)
 
 ### Other Credits
+
+- Thank you to [Code Institude](https://codeinstitute.net/) for organising this hackathon, which has been fun and educational for us all!
+- Thanks to [Gaff](https://github.com/NaoiseGaffney) for being a fantastic facilitator for our team and guiding us in the right direction.
