@@ -2624,7 +2624,7 @@ border-bottom: solid 3px #8b1212de;
 }
 
 .navbar-subject a {
-  color: #f0e6e7;
+  color: #ead4d6;
 }
 
 .brand {
@@ -2656,4 +2656,29 @@ border-bottom: solid 3px #8b1212de;
   border-radius: 15px;
   margin: 3vh auto;
   padding: 10px;
+}
+
+#resources {
+  background-color: #8a161f!important;
+  color: aliceblue;
+}
+
+.resource-links{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.resource-links:hover{
+  color: aliceblue;
+  text-decoration: underline;
+}
+
+.light {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.light:hover {
+  color: aliceblue;
+  text-decoration: underline;
 }
