@@ -1,4 +1,4 @@
-body {
+/* body {
   height: 100vh;
 }
 
@@ -8,10 +8,6 @@ body {
   position: fixed;
   z-index: 1;
   display: none;
-}
-
-.container {
-  margin-top: 5vh;
 }
 
 .container h1 {
@@ -88,10 +84,4 @@ body {
     display: block;
     filter: blur(0);
   }
-}
-
-@media screen and (max-width: 767px) {
-  .container {
-    margin-top: 5vh;
-  }
-}
+} */
