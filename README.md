@@ -211,16 +211,14 @@ The following bugs were found during build and have been resolved:
 
 <img src="assets/images/readme-images/media-queries-bug.jpg">
 
-- A bug was found in the JavaScript for the carousel whereby the slide with the 'active' class was not being selected correctly.
-- This was fixed by creating an array of DOM objects, with the desired object located in position 1:
-
-<img src="assets/images/readme-images/carousel-bug.png">
-
 - The role model images were initially displaying correctly on mobile but distorting when on larger screen sizes:
 
 <img src="assets/images/readme-images/image-bug.png">
 
-The following bugs are unresolved:
+- A bug explanining this issue was found in the JavaScript for the carousel, whereby the slide with the 'active' class was not being selected correctly.
+- This was fixed by creating an array of DOM objects, with the desired object located in position 1:
+
+<img src="assets/images/readme-images/carousel-bug.png">
 
 ## Deployment
 
