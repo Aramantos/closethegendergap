@@ -1221,7 +1221,7 @@ animation: textclip 5s linear infinite;
   }
   
   #navbar:hover {
-  border-image: linear-gradient(to right,  rgb(235, 12, 12) 16.6%, rgb(245, 137, 4) 33.3%, rgb(223, 215, 3) 50%, rgba(32, 193, 3, 0.868) 66.6%, rgba(3, 9, 198, 0.938) 83.2%, rgb(143, 7, 248) 100% ) 6;
+    border-image: linear-gradient(to right,  rgba(12, 155, 237, 0.945) 16.6%, rgba(12, 187, 235, 0.945) 33.3%, rgba(12, 187, 235, 0.703) 50%, rgba(253, 67, 253, 0.856) 66.6%, rgba(253, 67, 253, 0.906) 83.2%, rgba(200, 28, 200, 0.906) 100% ) 6;
   }
   
   .navbar {
@@ -1383,8 +1383,8 @@ animation: textclip 5s linear infinite;
   z-index: -1;
   }
   
-  .background:hover {
-    border-image: linear-gradient(to right,  rgba(12, 155, 237, 0.945) 16.6%, rgba(12, 187, 235, 0.945) 33.3%, rgba(12, 187, 235, 0.703) 50%, rgba(253, 67, 253, 0.856) 66.6%, rgba(253, 67, 253, 0.906) 83.2%, rgba(200, 28, 200, 0.906) 100% ) 6;  }
+.background:hover {
+  border-image: linear-gradient(to right,  rgba(12, 155, 237, 0.945) 16.6%, rgba(12, 187, 235, 0.945) 33.3%, rgba(12, 187, 235, 0.703) 50%, rgba(253, 67, 253, 0.856) 66.6%, rgba(253, 67, 253, 0.906) 83.2%, rgba(200, 28, 200, 0.906) 100% ) 6;  }
   
   .background h1 {
   text-align: center;
