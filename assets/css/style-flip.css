@@ -44,10 +44,14 @@
   background-color: #2980b9;
   color: white;
   transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
 }
 
 .flip-card-back p {
-  padding: 20px;
+  padding: 15px;
+  margin: 0!important;
+  font-size: 1.2rem;
 }
 
 /* Animations */
