@@ -4,7 +4,7 @@ function carouselProfile() {
         console.log("carouselProfile called!");
         var activeSlideArray = [];
         activeSlideArray = document.getElementsByClassName("active");
-        var activeSlide = activeSlideArray[2];
+        var activeSlide = activeSlideArray[1];
 
         // Removes all existing profile text
         var x = document.getElementsByClassName("profile");

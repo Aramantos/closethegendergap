@@ -161,8 +161,8 @@ body {
 
 @font-face {
   font-family: hand;
-  src: url("/assets/fonts/font1.ttf"),
-    url("/assets/fonts/font1.ttf") format("truetype");
+  src: url("../fonts/font1.ttf"),
+    url("../fonts/font1.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -2572,8 +2572,21 @@ border-bottom: solid 3px #8b1212de;
   }
 }
 
+.fa-burger {
+  color: aliceblue;
+}
+
 .navbar-toggler{
-  background: #8b1723;
+  color: aliceblue;
+  background-color: #89101c;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-right: 2vw;
+  margin-top: 5px;
+}
+
+.container-fluid {
+  padding: 0;
 }
 
 #welcome {
@@ -2582,4 +2595,41 @@ border-bottom: solid 3px #8b1212de;
   font-family: "hand";
   margin: 25px 0 30px 0;
   color: white;
+
+#navbar-brand {
+  margin: 0;
+  margin-left: 2vw;
+}
+
+.navbar-nav {
+  margin-right: 2vw;
+}
+
+.carousel-item img {
+  max-height: 65vh;
+}
+
+@media (max-width: 991px) {
+    .navbar-subject a {
+      color: aliceblue;
+    }
+}
+
+.navbar-subject a {
+  color: #f0e6e7;
+}
+
+.brand {
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer{
+  height: auto;
+}
+
+.fa-github{
+  font-size: 2rem;
+  margin: 15px;
+  color: #8b151f;
 }
