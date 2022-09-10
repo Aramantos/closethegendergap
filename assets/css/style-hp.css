@@ -9,6 +9,13 @@
 /* HERO-IMAGE */ /* HERO-IMAGE */ /* HERO-IMAGE */ /* HERO-IMAGE */ /* HERO-IMAGE */
 /* HERO-IMAGE */ /* HERO-IMAGE */ /* HERO-IMAGE */ /* HERO-IMAGE */ /* HERO-IMAGE */
 
+@import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
+
+body {
+  font-family: 'Combo', sans-serif;
+  font-size: 1.3rem;
+}
+
 header {
   height: 100%;
   width: 100%;
@@ -2633,4 +2640,20 @@ border-bottom: solid 3px #8b1212de;
   font-size: 2rem;
   margin: 15px;
   color: #8b151f;
+}
+
+#unconcious {
+  text-align: center;
+  font-size: 75px;
+  font-family: "hand";
+  margin: 25px 0 30px 0;
+  color: white;
+}
+
+#unconciousbias div p, #intro p{
+  width: 80%;
+  margin: auto;
+  border-radius: 15px;
+  margin: 3vh auto;
+  padding: 10px;
 }
