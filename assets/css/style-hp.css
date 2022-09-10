@@ -2603,6 +2603,42 @@ border-bottom: solid 3px #8b1212de;
   }
 }
 
+.fa-burger {
+  color: aliceblue;
+}
+
 .navbar-toggler{
-  background: #8b1723;
+  color: aliceblue;
+  background-color: #89101c;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-right: 2vw;
+  margin-top: 5px;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+#navbar-brand {
+  margin: 0;
+  margin-left: 2vw;
+}
+
+.navbar-nav {
+  margin-right: 2vw;
+}
+
+.carousel-item img {
+  max-height: 65vh;
+}
+
+@media (max-width: 991px) {
+    .navbar-subject a {
+      color: aliceblue;
+    }
+}
+
+.navbar-subject a {
+  color: #f0e6e7;
 }
