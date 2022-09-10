@@ -1,12 +1,11 @@
-# Someone Like You
+# VR=
 
-Someone Like You is an informational site designed for users to find out more about issues relating to gender equality in the workplace. It aims to inspire users by providing examples of people from a wide range of different backgrounds who have succeeded. Through educating users it also has the aim of helping them to better understand and take action relating to their own situation, whether that be as an employee or employer.
+VR= is an informational site designed for users to find out more about issues relating to gender equality in the workplace. It aims to inspire users by providing examples of people from a wide range of different backgrounds who have succeeded. Through educating users it also has the aim of helping them to better understand and take action relating to their own situation, whether that be as an employee or employer.
 
 This project has been created as part of Code Institute's Hackathon Event September 2022, "Time To Close The Gender Gap".
 
 You can visit the live website [here](https://aramantos.github.io/closethegendergap/).
 
-amiresponsive image here:
 <img src="assets/images/readme-images/responsive.png">
 
 ## Concept
@@ -19,7 +18,7 @@ Greater awareness of women and minorities in these areas can help to increase th
 
 Much more detail on this topic is available [in this report](https://www.aauw.org/app/uploads/2020/03/Solving-the-Equation-report-nsa.pdf) by the AAUW, a non-profit organisation in the USA that advances equity for women and girls through advocacy, education, and research.
 
-Someone Like You therefore has a number of aims:
+VR= therefore has a number of aims:
 
 - Provide information about successful people from different backgrounds, so that users can see examples of people who they identify with who have been successful
 - Educate users about some of the issues facing women in the workplace
@@ -29,6 +28,7 @@ The site is designed to cater for a range of users, including male and female em
 
 ### User Stories
 
+- As any user, I want to understand quickly what the site is about and its intended purpose.
 - As a female or minority employee or prospective employee, I would like to know more about other people with my background who have been successful in the field(s) I am working or interested in working in.
 - As an employer, I would like to understand the issues facing my employees and how to address these issues in order to attract a wider range of talent.
 - As a parent, I would like my children to grow up with knowledge of a range of positive female and male role models, but I am unsure whether I have this knowledge myself. I would like to find out about successful individuals who I may previously have been unaware of.
@@ -78,28 +78,32 @@ Our team identified a number of possible features for the project. We focused on
 
 ### Plane 3: Structure
 
-The website consists of four pages.
+The website consists of a single page with multiple sections.
 
-- The landing page is provides introductory basic facts....
-- The second page features a range of different role models displayed using a carousel, with a picture of each person and accompanying text below the image.
-- The third page ...
-- The fourth page ...
-
-The website is multi-page to enable easier navigation. Navigation could be difficult if the whole website was placed on a single page since the amount of content on one page would become unwieldy.
+- At the start of the website, the hero image is displayed. This striking image has been chosen to make the message of the website immediately clear and to grab the user's attention so that they want to read on.
+- An introduction then explains the purpose of the website to the user, to make immediately clear what the intended purpose of the site is.
+- The third section features a range of different role models displayed using a carousel, with a picture of each person and accompanying text below the image.
+- A flip card section follows. This increases user interactivity and breaks down the information into bite-size pieces.
+- An area covering unconscious bias is next. To improve the cohesion of the website and make the user feel comfortable, this uses the same styles as the introductory section above.
+- Finally, details are provided on resources and further reading so that interested users can continue their journey elsewhere.
 
 ### Plane 4: Skeleton
 
-Wireframes for the project can be seen [here](#).
+Since the project is designed to be mobile-first, a wireframe was made of the intended design on mobile, which was then rolled out to the rest of the site:
+
+<img src="assets/images/readme-images/wireframes.png">
 
 ### Plane 5: Surface
 
 #### Colour Scheme
 
+- The colours used in the website are designed to be clear and easy to read. Different colours are used for each section to break up the content nicely for users, while maintaining a cohesive look and feel throughout the website.
+
 #### Typography
 
-- The PP Handwriting font is used in the website logo in order to give the logo a modern feel.
+- The PP Handwriting font is used in the website logo and headings in order to give the logo a modern feel.
 
-- However, through the main sections of the website a less distinctive font is used, in order for the text to be clear and easy to read and to avoid having the font distract the user from the content.
+- However, through the main text of the website a simpler font is used, in order for the text to be clear and easy to read and to avoid having the font distract the user from the content.
 
 #### Images
 
@@ -113,13 +117,37 @@ Wireframes for the project can be seen [here](#).
 
 ### Current Features
 
-#### Title
+#### Navbar
 
-#### Section 1
+<img src="assets/images/readme-images/navbar.png">
 
-#### Section 2
+#### Hero Image
 
-#### Section 3
+<img src="assets/images/readme-images/hero-image.png">
+
+#### Intro Text
+
+<img src="assets/images/readme-images/intro-text.PNG">
+
+#### Role Models
+
+<img src="assets/images/readme-images/role-models.PNG">
+
+#### Flip Cards
+
+<img src="assets/images/readme-images/flip-cards.png">
+
+#### Unconscious Bias
+
+<img src="assets/images/readme-images/unconscious-bias.png">
+
+#### Further Reading
+
+<img src="assets/images/readme-images/further-reading.png">
+
+#### Footer
+
+<img src="assets/images/readme-images/footer.png">
 
 ### Potential Future Features
 
@@ -152,9 +180,16 @@ Implicit Association Test on this website itself rather than linking out to an e
 
 ### Manual Testing
 
+### User Testing
+
+- User testing feedback indicated that the colour contrast could be improved in the following areas:
+
+<img src="assets/images/readme-images/user-test-one.png">
+<img src="assets/images/readme-images/user-test-two.png">
 
 ### Device and Cross-Browser Testing
 
+- The website has been tested on a wide range of devices and browsers.
 
 ### Validator Testing
 
@@ -164,6 +199,7 @@ Implicit Association Test on this website itself rather than linking out to an e
 
 - The website was also tested for accessibility using Lighthouse in Dev Tools, with the following results:
 
+<img src="assets/images/readme-images/lighthouse.png">
 
 ### Bugs
 
@@ -174,6 +210,15 @@ The following bugs were found during build and have been resolved:
 - The bug was successfully resolved by changing `max-width: 540px;` to `width: 100%;` in the code for this media size.
 
 <img src="assets/images/readme-images/media-queries-bug.jpg">
+
+- A bug was found in the JavaScript for the carousel whereby the slide with the 'active' class was not being selected correctly.
+- This was fixed by creating an array of DOM objects, with the desired object located in position 1:
+
+<img src="assets/images/readme-images/carousel-bug.png">
+
+- The role model images were initially displaying correctly on mobile but distorting when on larger screen sizes:
+
+<img src="assets/images/readme-images/image-bug.png">
 
 The following bugs are unresolved:
 
