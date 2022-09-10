@@ -4,7 +4,7 @@ Someone Like You is an informational site designed for users to find out more ab
 
 This project has been created as part of Code Institute's Hackathon Event September 2022, "Time To Close The Gender Gap".
 
-You can visit the live website [here](#).
+You can visit the live website [here](https://aramantos.github.io/closethegendergap/).
 
 amiresponsive image here:
 <img src="assets/images/readme-images/responsive.png">
@@ -78,6 +78,14 @@ Our team identified a number of possible features for the project. We focused on
 
 ### Plane 3: Structure
 
+The website consists of four pages.
+
+- The landing page is also the main information page. It provides introductory basic facts....
+- The second page features a range of different role models displayed using a carousel, with a picture of each person and accompanying text below the image.
+The third page combines the trivia information with a contact form. This is because users who are looking for more information in the trivia section but do not find what they are looking for are likely to want to fill out the contact form.
+The fourth page provides a message for users who have submitted the contact form, and redirects them back to the site's main page.
+The website is multi-page to enable easier navigation. Navigation could be difficult if the whole website was placed on a single page since the amount of content on one page would become unwieldy.
+
 ### Plane 4: Skeleton
 
 Wireframes for the project can be seen [here](#).
@@ -121,6 +129,7 @@ Implicit Association Test on this website itself rather than linking out to an e
 - [Balsamiq](https://balsamiq.com/)
 - [GitHub](https://github.com/)
 - [GitPod](https://gitpod.io/)
+- [Pexels](https://www.pexels.com/)
 - [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)
 - [Google Fonts](https://fonts.google.com/)
 - [Favicon](https://www.favicon.cc/)
@@ -148,6 +157,12 @@ Implicit Association Test on this website itself rather than linking out to an e
 ### Bugs
 
 The following bugs were found during build and have been resolved:
+
+- When adjusting CSS for different sized devices, media queries were created for iPads, tablets and mobile landscapes. A bug was encountered the at 575px width, where the navbar no longer showed as 100% width at screen sizes bigger than this.
+- Debugging for this issue took place using the Dev Tools function in Chrome, as seen in the screenshot below.
+- The bug was successfully resolved by changing `max-width: 540px;` to `width: 100%;` in the code for this media size.
+
+<img src="assets/images/readme-images/media-queries-bug.png">
 
 The following bugs are unresolved:
 
@@ -179,7 +194,7 @@ It is also possible to copy the repository onto your own local machine. In pract
 - Navigate to the repository that you want to clone.
 - Above the list of files, find the "Code" button and click on it:
 <br>
-<img src="assets/images/code-button.png">
+<img src="assets/images/readme-images/code-button.png">
 
 - To clone the repository using HTTPS, under "Clone with HTTPS", click the clipboard icon. To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click the clipboard icon. To clone a repository using GitHub CLI, click Use GitHub CLI, then click the clipboard icon.
 - Open your computer terminal.
@@ -191,7 +206,7 @@ It is also possible to copy the repository onto your own local machine. In pract
 
 ### Content and Media
 
-
+- Information for the role models section was taken from 
 
 ### Code
 
